@@ -1,0 +1,101 @@
+/**************** Reset CSS Starts ****************/
+
+/**************** Reset CSS Ends ****************/
+
+
+/**************** Body Section Starts ****************/
+body {background-color:#424242;}
+/**************** Body Section Ends ****************/
+
+
+/**************** Nav-Bar Section Starts ****************/
+nav {background-color:#000000;}
+#menu-panel {float:right;}
+#searchbar {float:right;}
+
+/**************** Nav-Bar Section Ends ****************/
+
+
+/**************** Main Section Starts ****************/
+main{}
+#m-left-panel{
+    padding-top:16px;
+
+    padding-bottom:16px;
+
+}
+#m-centre-panel{
+    padding-top:16px;
+    padding-right:8px;
+    padding-bottom:16px;
+    padding-left:8px;
+}
+#m-right-panel{
+    padding-top:16px;
+    padding-right:8px;
+    padding-bottom:16px;
+    padding-left:8px;
+}
+#m-aside-panel{
+    padding-top:16px;
+    padding-right:8px;
+    padding-bottom:16px;
+    padding-left:8px;
+}
+#profile-card{
+    padding-top:8px;    
+    padding-right:8px;
+    padding-bottom:8px;
+    padding-left:8px;
+    border-radius:6px;
+}
+.post-card{
+    padding-top:8px;    
+    padding-right:8px;
+    padding-bottom:8px;
+    padding-left:8px;
+    border-radius:6px;
+}
+#user-games-card{
+    padding-top:8px;    
+    padding-right:8px;
+    padding-bottom:8px;
+    padding-left:8px;
+    border-radius:6px;
+}
+#aside-1-card{
+    padding-top:8px;    
+    padding-right:8px;
+    padding-bottom:8px;
+    padding-left:8px;
+    border-radius:6px;
+}
+.user-dp{
+    border-radius:50%;
+}
+.username{
+    margin:0;
+    font-size:90%;
+}
+.usertag{
+    margin:0;
+    font-size:70%;
+}
+.ggmediabox{
+    padding:4px;
+}
+#profc-menubtngrp{
+    border-top: 1px solid #bdbdbd;
+}
+/**************** Main Section Ends ****************/
+
+
+/**************** General Section Starts ****************/
+
+
+/**************** Padding Classes Starts ****************/
+/**************** Padding Classes Ends ****************/
+
+
+/**************** General Section Ends ****************/
+
