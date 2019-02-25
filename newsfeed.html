@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <!--================ Meta-Data Starts ================-->
+	   <meta charset="UTF-8">
+	   <title>My Game Feeds</title>
+	   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	   <meta name="description" content="">
+	   <meta name="keywords" content="">
+    <!--================ Meta-Data Ends ================-->
+    
+    
+    <!--================ Icon-Sets Starts ================-->
+        <!--==== Material Icons Starts ====-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--==== Material Icons Ends ====-->
+    
+        <!-- Font Awesome SVG CDN script Starts-->
+        <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"></script>
+        <!--==== Font Awesome SVG CDN script Ends ====-->
+    <!--================ Icon-Sets Ends ================-->
+    
+    
+    <!--================ Stylesheets Starts ================-->
+        <!--==== Bootstrap CSS CDN Starts ====-->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <!--==== Bootstrap CSS Ends ====-->
+    
+        <!--==== Authored Stylesheets Starts ====-->
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!--==== Authored Stylesheets Ends ====-->
+    <!--================ Stylesheets Starts ================-->
+    
+</head>
+<body>
+<!--================ Nav-Bar Starts ================-->
+<!-- <nav id="navbar" class="navbar fixed-bottom navbar-expand-md">
+    <div class="col-md-3">
+    <!--==== Logo Starts ====-->
+ <!--       <div id="logo" class="navbar-brand">
+            <button type="button" class="btn btn-outline-primary"><a href="testcheck.html" title="AiMGaminG"><img src="images/gglogo-32en.svg" alt=""></a></button>
+        </div>
+        <div id="site-name" class="navbar-brand d-inline"><a href="testcheck.html" title="AiMGaminG">AiMGaminG</a></div>
+    <!--==== Logo Ends ====-->
+<!--    </div>
+    <div class="col-md-9">
+    <!--==== Menu-Panel Button-Group Starts ====-->
+ <!--       <div id="menu-panel" class="pl-3">
+        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group" role="group" aria-label="First group">
+            <button type="button" class="btn btn-outline-primary btn-sm"><i class="fas fa-bolt font-weight-bold" style="font-size: "></i></button>
+            <button type="button" class="btn btn-outline-primary btn-sm"><i class="material-icons">account_balance_wallet</i></button>
+            <button type="button" class="btn btn-outline-primary btn-sm"><i class="material-icons">supervisor_account</i></button>
+            <button type="button" class="btn btn-outline-primary btn-sm"><i class="material-icons">message</i></button>
+            <button type="button" class="btn btn-outline-primary btn-sm"><i class="material-icons">notifications</i></button>
+        </div>
+        <div class="dropdown">
+        <div class="btn-group" role="group" aria-label="Additional Menu">
+            <button type="button" class="btn btn-outline-primary dropdown-toggle"></button>
+        </div>
+        </div>
+        </div>
+        </div>
+    <!--==== Menu-Panel Button-Group Ends ====-->
+            
+    <!--==== Searchbar Starts ====-->
+<!--        <div id="searchbar">
+        <form class="form-inline">
+        <div class="input-group">
+            <input type="text" class="form-control" id="Searchtextbox" placeholder="Search...">
+            <div class="input-group-append">
+                <span class="input-group-text"><i class="material-icons">search</i></span>
+            </div>
+        </div>
+        </form>
+        </div>
+    <!--==== Searchbar Ends ====-->
+<!--    </div>
+</nav>
+<!--================ Nav-Bar Ends ================-->
+    
+    
+    
+<!--================ Main-Section Starts ================-->
+<main>
+<div class="container-fluid">
+<div class="row">
+    <div id="m-left-panel" class="col-md-2 p-0">
+        <div id="profile-card">
+            <div class="card">
+            <div class="media ggmediabox">
+            <img class="user-dp d-flex img-thumbnail" src="images/gglogo-32en.svg" alt="User_Dislay Picture">
+            <div class="pl-3 pt-1">
+                <h5 class="card-title username">Username</h5>
+                <p id="profc-usertag" class="card-subtitle text-muted usertag">@username</p>
+            </div>
+            </div>
+            <div id="profc-menubtngrp" class="dropright">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex justify-content-between align-items-center p-2">
+                    <button type="button" class="btn btn-block btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-toggle="tooltip" data-placement="right" title="Notifications">
+                        <i class="material-icons">notifications</i><span class="badge badge-primary badge-pill">14</span>
+                    </button>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center p-2">
+                    <button type="button" class="btn btn-block btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-toggle="tooltip" data-placement="right" title="Create">
+                        <i class="material-icons">add_box</i>
+                    </button>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center  p-2">
+                    <button type="button" class="btn btn-block btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-toggle="tooltip" data-placement="right" title="Messages">
+                        <i class="material-icons">message</i><span class="badge badge-primary badge-pill">7</span>
+                    </button>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center p-2">
+                    <button type="button" class="btn btn-block btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-toggle="tooltip" data-placement="right" title="Requests">
+                        <i class="material-icons">supervisor_account</i><span class="badge badge-primary badge-pill">9</span>
+                    </button>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center p-2">
+                    <button type="button" class="btn btn-block btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-toggle="tooltip" data-placement="right" title="Wallet">
+                        <i class="material-icons">account_balance_wallet</i><span class="badge badge-primary badge-pill">27.00 GG</span>
+                    </button>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center p-2">
+                    <button type="button" class="btn btn-block btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-toggle="tooltip" data-placement="right" title="Power">
+                        <i class="fas fa-bolt font-weight-bold" style="font-size:150%"></i><span class="badge badge-primary badge-pill">32 W</span>
+                    </button>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center p-2">
+                    <button type="button" class="btn btn-block btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-toggle="tooltip" data-placement="right" title="Account Settings">
+                        <i class="material-icons">settings</i>
+                    </button>
+                </li>
+            </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="m-centre-panel" class="col-md-5 p-0">
+        <div class="post-card">
+            <div class="card">
+            <div class="card-header media ggmediabox">
+            <img class="user-dp d-flex img-thumbnail p-2" src="images/gglogo-32en.svg" alt="User_Dislay Picture">
+            <div class="col pl-3 pt-2">
+            <h5 class="card-title username">Username</h5>
+            <p id="profc-usertag" class="card-subtitle text-muted usertag">@username</p>
+            </div>
+            <div class="col p-2">
+                <button type="button" class="btn btn-outline-secondary btn-sm float-right"><i class="material-icons">more_vert</i></button>
+            </div>
+            </div>
+            <div class="card-body">
+                
+            </div>
+            <div class="card-footer">
+                <hr>
+                <div class="btn-group btn-block" role="group">
+                    <button class="btn btn-sm btn-outline-primary col" data-toggle="tooltip" data-placement="down" title="Vote"><i class="material-icons">thumb_up_alt</i></button>
+                    <button class="btn btn-sm btn-outline-primary col" data-toggle="tooltip" data-placement="down" title="View-Point"><i class="material-icons">mode_comment</i></button>
+                    <button class="btn btn-sm btn-outline-primary col" data-toggle="tooltip" data-placement="down" title="Share"><i class="material-icons">share</i></button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="post-card">
+            <div class="card">
+            <div class="card-header media ggmediabox">
+            <img class="user-dp d-flex img-thumbnail p-2" src="images/gglogo-32en.svg" alt="User_Dislay Picture">
+            <div class="col pl-3 pt-2">
+            <h5 class="card-title username">Username</h5>
+            <p id="profc-usertag" class="card-subtitle text-muted usertag">@username</p>
+            </div>
+            <div class="col p-2">
+                <button type="button" class="btn btn-outline-secondary btn-sm float-right"><i class="material-icons">more_vert</i></button>
+            </div>
+            </div>
+            <div class="card-body">
+                
+            </div>
+            <div class="card-footer">
+                <hr>
+                <div class="btn-group btn-block" role="group">
+                    <button class="btn btn-sm btn-outline-primary" data-toggle="tooltip" data-placement="down" title="Vote"><i class="material-icons">thumb_up_alt</i></button>
+                    <button class="btn btn-sm btn-outline-primary" data-toggle="tooltip" data-placement="down" title="View-Point"><i class="material-icons">mode_comment</i></button>
+                    <button class="btn btn-sm btn-outline-primary" data-toggle="tooltip" data-placement="down" title="Share"><i class="material-icons">share</i></button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="post-card">
+            <div class="card">
+            <div class="card-header media ggmediabox">
+            <img class="user-dp d-flex img-thumbnail p-2" src="images/gglogo-32en.svg" alt="User_Dislay Picture">
+            <div class="col pl-3 pt-2">
+            <h5 class="card-title username">Username</h5>
+            <p id="profc-usertag" class="card-subtitle text-muted usertag">@username</p>
+            </div>
+            <div class="col p-2">
+                <button type="button" class="btn btn-outline-secondary btn-sm float-right"><i class="material-icons">more_vert</i></button>
+            </div>
+            </div>
+            <div class="card-body">
+                
+            </div>
+            <div class="card-footer">
+                <hr>
+                <div class="btn-group btn-block" role="group">
+                    <button class="btn btn-sm btn-outline-primary" data-toggle="tooltip" data-placement="down" title="Vote"><i class="material-icons">thumb_up_alt</i></button>
+                    <button class="btn btn-sm btn-outline-primary" data-toggle="tooltip" data-placement="down" title="View-Point"><i class="material-icons">mode_comment</i></button>
+                    <button class="btn btn-sm btn-outline-primary" data-toggle="tooltip" data-placement="down" title="Share"><i class="material-icons">share</i></button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="post-card">
+            <div class="card">
+            <div class="card-header media ggmediabox">
+            <img class="user-dp d-flex img-thumbnail p-2" src="images/gglogo-32en.svg" alt="User_Dislay Picture">
+            <div class="col pl-3 pt-2">
+            <h5 class="card-title username">Username</h5>
+            <p id="profc-usertag" class="card-subtitle text-muted usertag">@username</p>
+            </div>
+            <div class="col p-2">
+                <button type="button" class="btn btn-outline-secondary btn-sm float-right"><i class="material-icons">more_vert</i></button>
+            </div>
+            </div>
+            <div class="card-body">
+                
+            </div>
+            <div class="card-footer">
+                <hr>
+                <div class="btn-group btn-block" role="group">
+                    <button class="btn btn-sm btn-outline-primary" data-toggle="tooltip" data-placement="down" title="Vote"><i class="material-icons">thumb_up_alt</i></button>
+                    <button class="btn btn-sm btn-outline-primary" data-toggle="tooltip" data-placement="down" title="View-Point"><i class="material-icons">mode_comment</i></button>
+                    <button class="btn btn-sm btn-outline-primary" data-toggle="tooltip" data-placement="down" title="Share"><i class="material-icons">share</i></button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="post-card">
+            <div class="card">
+            <div class="card-header media ggmediabox">
+            <img class="user-dp d-flex img-thumbnail p-2" src="images/gglogo-32en.svg" alt="User_Dislay Picture">
+            <div class="col pl-3 pt-2">
+            <h5 class="card-title username">Username</h5>
+            <p id="profc-usertag" class="card-subtitle text-muted usertag">@username</p>
+            </div>
+            <div class="col p-2">
+                <button type="button" class="btn btn-outline-secondary btn-sm float-right"><i class="material-icons">more_vert</i></button>
+            </div>
+            </div>
+            <div class="card-body">
+                
+            </div>
+            <div class="card-footer">
+                <hr>
+                <div class="btn-group btn-block" role="group">
+                    <button class="btn btn-sm btn-outline-primary" data-toggle="tooltip" data-placement="down" title="Vote"><i class="material-icons">thumb_up_alt</i></button>
+                    <button class="btn btn-sm btn-outline-primary" data-toggle="tooltip" data-placement="down" title="View-Point"><i class="material-icons">mode_comment</i></button>
+                    <button class="btn btn-sm btn-outline-primary" data-toggle="tooltip" data-placement="down" title="Share"><i class="material-icons">share</i></button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="post-card">
+            <div class="card">
+            <div class="card-header media ggmediabox">
+            <img class="user-dp d-flex img-thumbnail p-2" src="images/gglogo-32en.svg" alt="User_Dislay Picture">
+            <div class="col pl-3 pt-2">
+            <h5 class="card-title username">Username</h5>
+            <p id="profc-usertag" class="card-subtitle text-muted usertag">@username</p>
+            </div>
+            <div class="col p-2">
+                <button type="button" class="btn btn-outline-secondary btn-sm float-right"><i class="material-icons">more_vert</i></button>
+            </div>
+            </div>
+            <div class="card-body">
+                
+            </div>
+            <div class="card-footer">
+                <hr>
+                <div class="btn-group btn-block" role="group">
+                    <button class="btn btn-sm btn-outline-primary" data-toggle="tooltip" data-placement="down" title="Vote"><i class="material-icons">thumb_up_alt</i></button>
+                    <button class="btn btn-sm btn-outline-primary" data-toggle="tooltip" data-placement="down" title="View-Point"><i class="material-icons">mode_comment</i></button>
+                    <button class="btn btn-sm btn-outline-primary" data-toggle="tooltip" data-placement="down" title="Share"><i class="material-icons">share</i></button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="m-right-panel" class="col-md-3 p-0">
+        <div id="user-games-card">
+            <div class="card">
+            m-Right-Panel
+            </div>
+        </div>
+    </div>
+    <div id="m-aside-panel" class="col-md-2 p-0">
+        <div id="aside-1-card">
+            <div class="card">
+            Aside Content
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</main>
+<!--================ Main-Section Ends ================-->
+    
+    
+    
+<!--================ Bootstrap JS Bunndles CDN Starts ================-->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>    <!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>   <!-- Popper.js -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>  <!-- Bootstrap JS -->
+<!--================ Bootstrap JS Bunndles CDN Ends ================-->
+</body>
+</html>
