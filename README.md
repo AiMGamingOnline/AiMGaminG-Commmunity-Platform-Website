@@ -1,0 +1,2 @@
+# AiMGaminG-Commmunity-Platform-Website
+As we ourselves are no programmers so we could just create a few of the things of a single page that will be the news feed!. We will keep updating the codes here for the SOLO Learn Community to follow on the updates of the website. As a community website and platform each and every community member's contributions will be credited on website for life.  So anybody who wishes to help can contribute in any possible way. We're all ears to suggestions, as it's the main founding pillar of community advancement.
